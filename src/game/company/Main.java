@@ -25,8 +25,6 @@ class game {
         System.out.println("Guess the number: ");
         Scanner sc = new Scanner(System.in);
         inputnumber = sc.nextInt();
-
-
     }
     //logic for the game
     boolean isCorrectNumber(){
@@ -44,8 +42,6 @@ class game {
         return false;
     }
 }
-
-
 public class Main {
 
     public static void main(String[] args) {
